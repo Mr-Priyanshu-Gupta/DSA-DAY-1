@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class DSA6
+{
+	public static void main(String args[])
+	{
+	  Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your number");
+ 		int num1 = sc.nextInt();
+	 	System.out.println("number 1 is :" + num1);
+		System.out.println("Enter 2nd your number");
+		int num2 = sc.nextInt();
+		System.out.println("number 2 is :" + num2);
+		int Mul = num1 * num2;
+		int Sum = num1 + num2;
+		int Sub = num1 - num2;
+		int Div = num1 / num2;
+		int Mod = num1 % num2;
+		System.out.println(num1 + " + " + num2 + " = " + Sum);
+		System.out.println(num1 + " - " + num2 + " = " + Sub);
+		System.out.println(num1 + " x " + num2 + " = "+ Mul);
+		System.out.println(num1 + " / " + num2 + " = "+ Div);
+		System.out.println(num1 + " % " + num2 + " = "+ Mod);
+
+	}
+}
+
