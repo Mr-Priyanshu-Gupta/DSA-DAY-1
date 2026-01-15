@@ -14,6 +14,7 @@ class DSA12
 	System.out.println("AVG of Number is : " + ":" + ((num1+num2+num3)/3) );
 		
 	}
-}
+} 
+
 
 
